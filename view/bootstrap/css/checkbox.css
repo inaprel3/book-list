@@ -1,0 +1,8 @@
+body {
+    background: url('back3.jpeg');
+    color: white;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}

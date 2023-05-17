@@ -1,0 +1,9 @@
+tr.cyberpunk {
+    background-color: #d8d5a0;
+}
+tr.fantasy {
+    background-color: #ceba9c;
+}
+tr.cyberpunk, tr.fantasy {
+    text-align: center;
+}

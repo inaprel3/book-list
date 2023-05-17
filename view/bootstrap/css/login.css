@@ -1,0 +1,8 @@
+body {
+    background: url('background.jpeg'); 
+    color: white;
+	font-size: 20pt;
+}
+form {
+    margin-top: 30px;
+}

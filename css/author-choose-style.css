@@ -1,0 +1,39 @@
+body {
+    background: url('background.jpeg'); 
+    color: white;
+	font-size: 20pt; 
+}
+form[name='author-form'], form[name='author-form'] input, 
+form[name='author-form'] select {
+	font-size: 20pt;
+}
+select[name='author'] {
+	font-size: 20pt;
+	margin: 20px 10px 0px 10px;
+	border-radius: 5px;
+	width: 400px;
+}
+input[type='submit'] {
+	font-size: 20pt;
+	border-radius: 5px;
+}
+input[name='submit'] {
+	font-size: 20pt;
+	width: 100px;
+}
+form[name='author-form'] a {
+	font-size: 20pt;
+	color: Black;
+	text-decoration: none;
+	border: 3px rgb(255, 255, 255) solid;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+	background-color: rgb(255, 0, 0);
+}
+form[name='author-form'] a:hover {
+	font-size: 20pt;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border: 3px rgb(255, 255, 255) solid;
+}

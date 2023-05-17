@@ -1,0 +1,47 @@
+body {
+    background: url('background.jpeg'); 
+    color: white;
+	font-size: 20pt;
+}
+a {
+	font-size: 20pt;
+    color: yellow;
+    text-decoration: none;
+}
+a:hover {
+	font-size: 20pt;
+	color: red;
+}
+input[type=checkbox] {
+	font-size: 20pt;
+	transform: scale(2.2); 
+}
+form div, form div label, form div input, form div select {
+	font-size: 20pt; 
+    margin-bottom: 5px;
+	display: table-row;
+    line-height: 20px; 
+}
+form div span {
+    padding-right: 10px;
+}
+form div input, form div select {
+    border-radius: 5px;
+}
+form {
+    display: table;
+    padding-top: 20px;
+}
+div.tbl {
+    display: table;
+}
+div.tbl > div {
+    display: table-row;
+}
+div.tbl > div > label,  div.tbl > div > input {
+    display: table-cell;
+    padding-right: 20px;
+}
+input[type="submit"] {
+    margin-top: 20px;
+}

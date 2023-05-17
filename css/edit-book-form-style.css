@@ -1,0 +1,49 @@
+body {
+    background: url('background.jpeg');
+    color: white;
+}
+form {
+	display: table;
+	padding-top: 30px; 
+}
+form div {
+	font-size: 20pt; /*"Прочитана"*/
+	display: table-row;
+    line-height: 70px; 
+}
+form div label {
+	font-size: 20pt; /*назва, дата, жанр*/
+	padding-right: 20px; 
+	display: table-cell;
+}
+form div input {
+	font-size: 20pt; /*Змінити*/
+	display: table-cell;
+	line-height: 20px;
+	border-radius: 5px; 
+}
+input[name='bookTitle'] {
+	font-size: 20pt;
+	width: 600px; 
+}
+input[name='date_publish'] {
+	font-size: 20pt;
+	width: 600px;
+}
+select[name='genre'] {
+	font-size: 20pt;
+	width: 600px;
+}
+a { /*"На головну*/
+	font-size: 20pt;
+    color: rgb(255, 249, 65);
+    text-decoration: none;
+}
+a:hover {
+	font-size: 20pt;
+	color: red;
+}
+input[type=checkbox]{
+	font-size: 20pt;
+	transform: scale(2.2);
+}
